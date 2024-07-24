@@ -1,0 +1,18 @@
+package ArrayList;
+
+public class ListApp {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Square> squareList = new ArrayList<Square>(5);
+		ArrayList<String> stringList = new ArrayList<String>("25");		
+		ArrayList<PointThreeD> pointThreeDList = new ArrayList<PointThreeD>(2.1, 4.2, 5.9);
+		
+		System.out.println(squareList.toString());
+		System.out.println(stringList.toString());
+		System.out.println(pointThreeDList.toString());
+		
+
+	}//end main
+
+}//end class
